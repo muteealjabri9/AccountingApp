@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Accounting App"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_width="290dp"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/my_light_primary"
+                android:textSize="20sp"
+                android:text="Phone Number"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <EditText
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:id="@+id/phone_number"
+                android:hint="+966xxxxxxxx"
+                android:background="@drawable/lined_bg"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/my_light_primary"
+                android:textSize="20sp"
+                android:text="Password"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <EditText
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:id="@+id/password_txt"
+                android:hint="*******"
+                android:inputType="textPassword"
+                android:background="@drawable/lined_bg"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Didnt have an account?"
+                android:textSize="16dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/goToSignUp"
+                android:text="SignUp"
+                android:textSize="16dp"
+                android:textColor="@color/my_light_primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

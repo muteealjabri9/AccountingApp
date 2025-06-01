@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddUpdateAccountActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Add Update Account"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:padding="6dp"
+        android:id="@+id/price"
+        android:hint="Price"
+        android:inputType="number"
+        android:background="@drawable/lined_bg"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:padding="6dp"
+        android:id="@+id/details"
+        android:hint="Details"
+        android:background="@drawable/lined_bg"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </EditText>
+
+    <RadioGroup
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/group"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/creditor"
+            android:text="Creditor"
+            android:textSize="22sp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/debtor"
+            android:text="Debtor"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+
+</LinearLayout>
