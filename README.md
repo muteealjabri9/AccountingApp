@@ -20,10 +20,7 @@ An Android application developed in **Java** using **SQLite** for managing perso
 
 | Login | Home | Add Transaction |
 |-------|------|------------------|
-|![Login Screen](screenshots/login.png)
-![Home Screen](screenshots/home.png)
-![Add Transaction](screenshots/add.png)
- |
+| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Add](screenshots/add.png) |
 
 > Replace image paths with your actual screenshot paths (e.g., `screens/login.png`)
 
